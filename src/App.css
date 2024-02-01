@@ -1,38 +1,189 @@
-.App {
-  text-align: center;
+#Home{
+  background-color: #5CBD9D;
+  width: 100%;
+  height: 80vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.hole-container{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.info h2{
+  margin-left: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.img-size img{
+margin-top: 30px;
+width: 200px;
+margin-left: 20px;
 }
+.traverse{
+  display: flex;
+  padding-left: 10px;
+}
+.traverse i{
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.line{
+  width: 70px;
+  height: 5px;
+  background-color: white;
+  margin-left: 70px;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+.line2{
+  width: 70px;
+  height: 5px;
+  background-color: white;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.Second{
+  width: 100%;
+  height: 40vh;
+  padding: 80px
+}
+.icons{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.icons span{
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 6px;
+  border: 1px solid white;
+}
+
+#about{
+  background-color: #5CBD9D;
+  width: 100%;
+  height: 80vh;
+}
+.hole-container2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+#about .traverse .line{
+  width: 90px;
+  height: 5px;
+  background-color: white;
+  margin-left: 90px;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+#about .traverse .line2{
+  width: 90px;
+  height: 5px;
+  background-color: white;
+  margin-left: 20px;
+  margin-top: 5px; 
+}
+
+#porto{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#porto .traverse .line{
+background-color: #000;
+margin-left: 10px;
+margin-right: 20px;
+margin-top: 5px;
+}
+
+#porto .traverse .line2{
+background-color: #000;
+margin-left: 20px;
+margin-top: 5px; 
+}
+.innerinfo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+  padding: 10px;
+  transition: all 3s;
+}
+#porto .box{
+width: 350px;
+height: 253px;
+margin-top: 50px;
+border-radius: 10px;
+position: relative;
+}
+.box img{
+  width: 100%;
+  border-radius: 10px;
+  z-index:1;
+}
+.layer{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+  background-color: teal;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 6rem;
+  color: #fff;
+  opacity: 0;
+  cursor: pointer;
+  transition: all 1s;
+
+}
+
+.box:hover .layer{
+  opacity: 0.9;
+  /* display: flex; */
+  transition: all 1s;
+}
+
+#contact .traverse .line{
+  background-color: #000;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-top: 5px;
+  }
+  
+  #contact .traverse .line2{
+  background-color: #000;
+  margin-left: 20px;
+  margin-top: 5px; 
+  }
+  .innerinfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 10px;
+    transition: all 3s;
+  }
+  #contact{
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  #contact .inputs{
+    margin-bottom: 10px;
+  }
